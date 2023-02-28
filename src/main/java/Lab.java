@@ -1,3 +1,4 @@
+import javafx.scene.control.SplitPane.Divider;
 
 public class Lab {
     /**
@@ -14,6 +15,11 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+          int i = 1;
+          int j = 0;
 
+          int g = i/j;
+          System.out.println(g);
     }
+
 }
